@@ -5,6 +5,7 @@
   --black-color: #000000;
   --primary-white-color: #ffffff;
   --footer-color: #2f303a;
+  --portfolio-button-color: #f5f4fa;
   --contacts-color: rgba(255, 255, 255, 0.6);
 }
 
@@ -24,6 +25,7 @@ body {
 /* цвет контактов в футере: rgba(255, 255, 255, 0.6); */
 /* черный цвет: #000000 */
 /* цвет футера: #2F303A */
+/* цвет кнопок портфолио: #F5F4FA */
 
 /*  Шапка */
 
@@ -91,7 +93,7 @@ body {
   background-color: var(--footer-color);
 }
 
-.footer a {
+.footer .social a {
   color: var(--black-color);
 }
 
@@ -113,10 +115,22 @@ body {
   color: var(--title-color);
 }
 
-.filter a {
-  color: var(--black-color);
-}
-
 .portfolio .title {
   color: var(--title-color);
+}
+
+/* Button */
+.button {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+.button.portfolio {
+  color: var(--title-color);
+  background-color: var(--portfolio-button-color);
+}
+
+.button.portfolio:hover {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
 }
