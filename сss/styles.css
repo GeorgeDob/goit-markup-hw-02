@@ -1,0 +1,122 @@
+:root {
+  --primary-text-color: #757575;
+  --title-color: #212121;
+  --accent-color: #2196f3;
+  --black-color: #000000;
+  --primary-white-color: #ffffff;
+  --footer-color: #2f303a;
+  --contacts-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+/* белый цвет: #FFFFFF */
+/* цвет заголовка: #212121 */
+/* основной цвет текста: #757575 */
+/* акцент: #2196F3 */
+/* цвет контактов в футере: rgba(255, 255, 255, 0.6); */
+/* черный цвет: #000000 */
+/* цвет футера: #2F303A */
+
+/*  Шапка */
+
+/* Навигация */
+.logo-web {
+  color: var(--accent-color);
+}
+
+.logo {
+  color: var(--black-color);
+}
+
+.pages-nav .link {
+  color: var(--title-color);
+}
+
+.pages-nav .link:hover,
+.pages-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.pages-nav .link.current {
+  color: var(--accent-color);
+}
+
+/* Контакты */
+.nav-contacts .contacts {
+  color: var(--primary-text-color);
+}
+
+.nav-contacts .contacts:hover,
+.nav-contacts .contacts:focus {
+  color: var(--accent-color);
+}
+
+/* Оформелние index.html */
+
+/* Герой */
+.hero .title {
+  color: var(--title-color);
+}
+
+/* Особенности */
+.features .title {
+  color: var(--title-color);
+}
+
+/* Чем мы занимаемся */
+.products .title {
+  color: var(--title-color);
+}
+
+/* Наша команда */
+.team .title {
+  color: var(--title-color);
+}
+
+/* Постоянные клиенты */
+.clients .title {
+  color: var(--title-color);
+}
+
+/* Футер */
+.footer {
+  background-color: var(--footer-color);
+}
+
+.footer a {
+  color: var(--black-color);
+}
+
+.contacts .adress {
+  color: var(--primary-white-color);
+}
+
+.contacts .mail {
+  color: var(--contacts-color);
+}
+
+.contacts .phone {
+  color: var(--contacts-color);
+}
+
+/* Оформление portfolio.html */
+
+.filter .title {
+  color: var(--title-color);
+}
+
+.filter a {
+  color: var(--black-color);
+}
+
+.portfolio .title {
+  color: var(--title-color);
+}
