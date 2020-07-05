@@ -123,6 +123,10 @@ body {
   color: var(--title-color);
 }
 
+.sub p {
+  color: var(--primary-white-color);
+}
+
 /* Button */
 .button {
   color: var(--primary-white-color);
