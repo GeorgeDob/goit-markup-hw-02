@@ -93,6 +93,10 @@ body {
   background-color: var(--footer-color);
 }
 
+.footer .social p {
+  color: var(--primary-white-color);
+}
+
 .footer .social a {
   color: var(--black-color);
 }
