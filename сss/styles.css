@@ -118,7 +118,23 @@ body {
 .portfolio .title {
   color: var(--title-color);
 }
+/* Фильтр портфолио */
+button {
+  color: var(--title-color);
+  background-color: var(--portfolio-button-color);
+}
 
+button:hover {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+button:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+/* Футер */
 .sub p {
   color: var(--primary-white-color);
 }
