@@ -9,6 +9,15 @@
   --contacts-color: rgba(255, 255, 255, 0.6);
 }
 
+/* белый цвет: #FFFFFF */
+/* цвет заголовка: #212121 */
+/* основной цвет текста: #757575 */
+/* акцент: #2196F3 */
+/* цвет контактов в футере: rgba(255, 255, 255, 0.6); */
+/* черный цвет: #000000 */
+/* цвет футера: #2F303A */
+/* цвет кнопок портфолио: #F5F4FA */
+
 body {
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
@@ -24,22 +33,13 @@ body {
   text-decoration: none;
 }
 
-/* белый цвет: #FFFFFF */
-/* цвет заголовка: #212121 */
-/* основной цвет текста: #757575 */
-/* акцент: #2196F3 */
-/* цвет контактов в футере: rgba(255, 255, 255, 0.6); */
-/* черный цвет: #000000 */
-/* цвет футера: #2F303A */
-/* цвет кнопок портфолио: #F5F4FA */
-
 /*  Шапка */
 
 /* Навигация */
 .logo-web {
   color: var(--accent-color);
 
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -48,7 +48,7 @@ body {
 .logo {
   color: var(--black-color);
 
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -184,7 +184,7 @@ button {
   color: var(--title-color);
   background-color: var(--portfolio-button-color);
 
-  font-family: roboto;
+  font-family: roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
